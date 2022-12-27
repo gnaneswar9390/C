@@ -1,0 +1,26 @@
+#include<stdio.h>
+void input();
+void caluclate();
+void output();
+int a,b,c;
+int main()
+{
+ input();
+ 
+}
+void input()
+{
+	printf("enter a,b values");
+	scanf("%d%d",&a,&b);
+	caluclate();
+	
+}
+void caluclate()
+{
+	c=a+b;
+	output();
+}
+void output()
+{
+	printf("%d",c);
+}
