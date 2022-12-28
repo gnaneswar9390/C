@@ -1,0 +1,13 @@
+#include<stdio.h>
+main()
+{
+	char ch;
+	FILE *fp;
+	fp=fopen("C:\\Users\\kolli\\OneDrive\\Documents\\1233.c","r");
+	while((ch=fgetc(fp))!=EOF)
+	{
+		printf("%c",ch);
+	}
+	fclose(fp);
+	return 0;
+}
